@@ -59,11 +59,6 @@
   padding: 20px;
 }
 
-.title{
-  padding-left: 0px;
-}
-
-
 .blogPreview{
     padding: 15px 16px;
     padding-bottom: 35px;
@@ -86,9 +81,60 @@
 
 .blogPreview p{
   margin-bottom: 8px;
-  color: black;
+  color: rgba(0, 0, 0, 0.747);
 }
 
 .blogPreview a{
   text-decoration: none;
+}
+
+
+/* Blog Styles */
+
+.blogDetails h2{
+  color: green;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.blogDetails p{
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+.blogDetails div{
+  line-height: 30px;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: green;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }

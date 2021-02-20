@@ -15,13 +15,13 @@ function App() {
             <Route exact path='/'>
               <Home />
             </Route>
-          </Switch>
             <Route path='/create'>
               <Create />
             </Route>
             <Route path='/blogs/:id'>
               <BlogDetails />
             </Route>
+          </Switch>
         </div>
       </div>
     </Router>
