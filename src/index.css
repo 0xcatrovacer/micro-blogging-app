@@ -8,8 +8,18 @@
 
 /* Navbar Styles */
 
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+    padding-top: 18px;
+    padding-bottom: 0px;
+  }
+
 .navbar h1{
-  padding: 20px 20px;
+  padding: 0px 20px;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   color: green;
@@ -23,39 +33,49 @@
   justify-content: center;
 }
 
-.links a{
+.navbar a{
   font-size: 20px;
+  color: black;
   font-weight: bold;
-  color: green;
   margin-bottom: 40px;
   padding: 0px 20px;
   text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
+.navbar a:hover {
+    color: green;
+}
 
 
 
 /* HomePage Styles */
 
-
-
+  
 .content {
   max-width: 600px;
-  margin: 10px auto;
-  padding: 10px;
+  margin: 0px auto;
+  padding: 20px;
 }
 
-.home{
-  display: block;
+.title{
+  padding-left: 0px;
 }
 
 
 .blogPreview{
-  margin: 20px 0px;
-  padding: 20px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    padding: 15px 16px;
+    padding-bottom: 35px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogPreview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
 
 .blogPreview h2{
@@ -63,6 +83,6 @@
   margin-bottom: 8px;
 }
 
-.blogPreview :hover h2:not(:hover) p:not(:hover){
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+.blogPreview p{
+  margin-bottom: 8px;
 }

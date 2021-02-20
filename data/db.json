@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "Fresher Pawri",
+            "body": "Welcome Freshers 2020",
+            "author": "Swarnab",
+            "id": "1"
+        },
+        {
+            "title": "Waves 2021",
+            "body": "En voyage Uncharted Adventures",
+            "author": "Erudite",
+            "id": "2"
+        }
+    ]
+}
