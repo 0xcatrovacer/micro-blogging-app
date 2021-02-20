@@ -81,8 +81,14 @@
 .blogPreview h2{
   color: green;
   margin-bottom: 8px;
+  text-decoration: none;
 }
 
 .blogPreview p{
   margin-bottom: 8px;
+  color: black;
+}
+
+.blogPreview a{
+  text-decoration: none;
 }
