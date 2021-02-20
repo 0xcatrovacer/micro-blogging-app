@@ -3,11 +3,18 @@ const Create = () => {
 
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
+    const [author, setAuthor] = useState('Swarnab');
+
+    const handleSumbit = (e) => {
+        e.preventDefault();
+        const blog = { title, body, author }
+        console.log(blog)
+    }
 
     return (
         <div className="create">
             <h2>Add a New Blog</h2>
-            <form>
+            <form onSubmit={handleSumbit}>
                 <label>Blog Title:</label>
                 <input 
                 type="text" 
@@ -22,7 +29,9 @@ const Create = () => {
                 onChange={(e) => setBody(e.target.value)}
                 />
                 <label>Blog Author:</label>
-                <select>
+                <select
+                value={author}
+                onChange={(e) => setAuthor(e.target.value)}>
                     <option value="swarnab">Swarnab</option>
                     <option value="erudite">Erudite</option>
                     <option value="ira">Ira</option>
