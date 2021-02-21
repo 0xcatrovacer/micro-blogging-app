@@ -1,3 +1,10 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "a",
+      "body": "a",
+      "author": "a",
+      "id": 1
+    }
+  ]
 }
