@@ -10,21 +10,21 @@ const BlogDetails = () => {
     const handleClick = () => {
         fetch('http://localhost:8000/blogs/' + id, {
             method: "DELETE"
-        }). then(() => {
+        }).then(() => {
             history.push('/')
         })
     }
 
-    return(
+    return (
         <div className="blogDetails">
-            { isPending && <div>Loading...</div> }
-            { error && <div>{ error }</div> }
+            { isPending && <div>Loading...</div>}
+            { error && <div>{error}</div>}
             { blog && (
                 <article>
-                <h2>{ blog.title }</h2>
-                <p><strong>Written By</strong>: { blog.author }</p>
-                <div>{ blog.body }</div>
-                <button onClick={handleClick}>Delete</button>
+                    <h2>{blog.title}</h2>
+                    <p><strong>Written By</strong>: {blog.author}</p>
+                    <div>{blog.body}</div>
+                    <button onClick={handleClick}>Delete</button>
                 </article>
             )}
         </div>
