@@ -115,6 +115,16 @@
   line-height: 30px;
 }
 
+.blogDetails button{
+  background: green;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 /* create new blog form */
 .create {
   max-width: 400px;
