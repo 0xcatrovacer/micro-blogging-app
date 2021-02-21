@@ -1,22 +1,3 @@
 {
-  "blogs": [
-    {
-      "title": "Alpha Testing",
-      "body": "This blog is being alpha tested\n21-02-2021",
-      "author": "Swarnab",
-      "id": 1
-    },
-    {
-      "title": "Another Test",
-      "body": "lorem ipsum",
-      "author": "Swarnab",
-      "id": 2
-    },
-    {
-      "title": "test 2",
-      "body": "Hello",
-      "author": "Swarnab",
-      "id": 3
-    }
-  ]
+  "blogs": []
 }
