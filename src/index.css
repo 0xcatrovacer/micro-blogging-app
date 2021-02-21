@@ -59,6 +59,11 @@
   padding: 20px;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
 .blogPreview{
     padding: 15px 16px;
     padding-bottom: 35px;
@@ -74,9 +79,12 @@
 }
 
 .blogPreview h2{
-  color: green;
-  margin-bottom: 8px;
-  text-decoration: none;
+    color: green;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .blogPreview p{
