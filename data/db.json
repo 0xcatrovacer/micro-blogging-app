@@ -1,3 +1,10 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "Alpha test",
+      "body": "alpha testing ...\n21-02-2021",
+      "author": "Swarnab",
+      "id": 1
+    }
+  ]
 }
